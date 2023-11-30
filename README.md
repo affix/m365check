@@ -1,4 +1,4 @@
-# m365check: Microsoft365 User Verification CLI Tool
+# Microsoft365 User Verification CLI
 
 ## Overview
 m365check is a command-line interface (CLI) application designed to verify the validity of Microsoft365 user accounts without making login requests. This tool provides a fast and efficient way to check if Microsoft365 user accounts are active, without the need to authenticate each user.
@@ -11,7 +11,11 @@ m365check is a command-line interface (CLI) application designed to verify the v
 
 
 # Installation
-[Instructions on how to install the m365check application]
+
+```
+cargo install m365check
+
+```
 
 # Usage
 The basic usage of m365check is outlined below:
